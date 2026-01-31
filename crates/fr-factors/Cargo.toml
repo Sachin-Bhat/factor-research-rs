@@ -1,0 +1,12 @@
+[package]
+name = "fr-factors"
+description = "Factors library for factor research. It defines factor traits/registry and factor implementations."
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+fr-data = { path = "../fr-data" }
+
+[lints]
+workspace = true

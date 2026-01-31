@@ -1,0 +1,21 @@
+[workspace]
+members = ["crates/*"]
+resolver = "3"
+
+[workspace.package]
+# name = "factor-research-rs"
+version = "0.1.0"
+edition = "2024"
+
+[workspace.lints.clippy]
+uninlined_format_args = "warn"
+
+[workspace.dependencies]
+# Add your dependencies here
+
+# [package]
+# name = "factor-research-rs"
+# version = "0.1.0"
+# edition = "2024"
+
+# [dependencies]

@@ -1,0 +1,11 @@
+[package]
+name = "fr-portfolio"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+fr-stats = { path = "../fr-stats" }
+
+[lints]
+workspace = true

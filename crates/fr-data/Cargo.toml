@@ -1,0 +1,11 @@
+[package]
+name = "fr-data"
+description = "Data library for factor research. It should handle ingestion, schema validation, calendars, resampling, and adjusted OHLCV output."
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+
+[lints]
+workspace = true

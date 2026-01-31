@@ -1,0 +1,10 @@
+[package]
+name = "fr-io"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+
+[lints]
+workspace = true

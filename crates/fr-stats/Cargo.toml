@@ -1,0 +1,11 @@
+[package]
+name = "fr-stats"
+description = "Statistics library for factor research. It houses IC/IR, regressions, decay curves, and covariance calculations."
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+
+[lints]
+workspace = true

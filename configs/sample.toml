@@ -1,0 +1,28 @@
+[run]
+name = "demo"
+start_date = "2015-01-01"
+end_date = "2020-12-31"
+
+[data]
+format = "parquet"
+path = "data/ohlcv/*.parquet"
+calendar = "NYSE"
+adjusted = true
+
+[factors]
+# Example factor list; actual factor ids will evolve with implementation.
+list = ["momentum_12m_1m", "mean_reversion_5d", "volatility_20d"]
+
+[portfolio]
+kind = "long_short"
+long_quantile = 0.2
+short_quantile = 0.2
+max_weight = 0.02
+
+[execution]
+slippage_bps = 5.0
+spread_bps = 2.0
+
+[backtest]
+rebalance = "daily"
+transaction_costs = true

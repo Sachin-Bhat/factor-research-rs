@@ -1,0 +1,12 @@
+[package]
+name = "fr-backtest"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+fr-execution = { path = "../fr-execution" }
+fr-portfolio = { path = "../fr-portfolio" }
+
+[lints]
+workspace = true

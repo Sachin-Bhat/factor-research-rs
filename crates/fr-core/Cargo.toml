@@ -1,0 +1,10 @@
+[package]
+name = "fr-core"
+description = "Core library for factor research. It should define the canonical data model and utilities."
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+
+[lints]
+workspace = true

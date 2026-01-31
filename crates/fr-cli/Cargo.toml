@@ -1,0 +1,17 @@
+[package]
+name = "fr-cli"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fr-core = { path = "../fr-core" }
+fr-data = { path = "../fr-data" }
+fr-factors = { path = "../fr-factors" }
+fr-stats = { path = "../fr-stats" }
+fr-portfolio = { path = "../fr-portfolio" }
+fr-execution = { path = "../fr-execution" }
+fr-backtest = { path = "../fr-backtest" }
+fr-io = { path = "../fr-io" }
+
+[lints]
+workspace = true
